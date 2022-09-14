@@ -1,0 +1,25 @@
+{
+  "name": "c-stomp",
+  "version": "1.0.0",
+  "description": "Implementation of the STOMP protocol in node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "./node_modules/.bin/mocha ./test/*"
+  },
+  "repository": "https://github.com/swahballa/c-stomp.git",
+  "author": {
+    "email": "sherfwahballa0@gmail.com",
+    "name": "Sherif Wahballa",
+    "url": "https://github.com/sherifwahballa1"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "moment": "^2.29.4",
+    "smpp": "^0.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.3"
+  }
+}
